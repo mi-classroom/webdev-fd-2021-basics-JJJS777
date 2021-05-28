@@ -1,69 +1,140 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
 
 </head>
 
+<style>
+    html{
+        font-family: serif;
+        font-size: 12pt;
+        color: black;
+        line-height: 130%;
+    }
+
+    Section{        
+        margin-top: 16px;
+        margin-bottom: 16px;        
+        
+        padding-left: 32px;
+        padding-right: 256px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    h1{
+        font-size: 37pt;
+        font-family: sans-serif;
+        color: #666;
+    }
+
+    h2{
+        font-size: 23pt;
+    }
+
+    h3{
+        font-size: 19pt;
+    }
+
+
+
+    blockquote{
+        font-style: italic;
+    }
+
+
+    .intro {
+        font-family: sans-serif;
+        color: darkgray;
+    }
+
+    .divIntro {
+        width: 50%;
+    }
+
+    .divBase{
+        padding-left: 128px;
+    }
+
+    .firstSection{        
+        padding-left: 32px;
+        padding-right: 256px;
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+
+
+</style>
+
 <body>
-    <h1>Design Principles</h1>
-    <p>
-        The challenge is to develop an application that tries to increase the user’s participation in team 
-        sports through online communities. Several factors play into the success of this concept. It is not 
-        possible to achieve this goal if the application is not properly designed. To achieve this, design 
-        principles of several disciplines are applied to achieve a user-centric solution.
-    </p>
 
-    <h2>User Experience Design</h2>
-    <p>
-        The term "user experience" was first coined by Don Norman in the early 1990s when he was working at 
-        Apple (NORMAN, 2013, P. XIII F.). User experience comprises all aspects of a user’s interaction with 
-        a company, its services, and its products. The focus and most important goal of good user experience 
-        is to meet the user’s needs in every aspects. Close cooperation is required between different disciplines, 
-        such as engineering, marketing, graphic design, industrial design, and interface design (NORMAN & NIELSEN, N.D.).
-    </p>
+    <!-- Erste Section -->
+    <section class="firstSection">
+        <div class="divIntro">
+            <h1>Design Principles</h1>
+            <p class="intro">
+                The challenge is to develop an application that tries to increase the user’s participation in team 
+                sports through online communities. Several factors play into the success of this concept. It is not 
+                possible to achieve this goal if the application is not properly designed. To achieve this, design 
+                principles of several disciplines are applied to achieve a user-centric solution.
+            </p>
+        </div>   
+    </section>     
 
+    <!-- Zweite Section -->
+    <section>
+        <div class="divBase">
+            <h2>User Experience Design</h2>
+                <p>
+                    The term "user experience" was first coined by Don Norman in the early 1990s when he was working at
+                    Apple (NORMAN, 2013, P. XIII F.). User experience comprises all aspects of a user’s interaction with
+                    a company, its services, and its products. The focus and most important goal of good user experience
+                    is to meet the user’s needs in every aspects. Close cooperation is required between different disciplines,
+                    such as engineering, marketing, graphic design, industrial design, and interface design (NORMAN & NIELSEN, N.D.).
+                </p>
+        </div>
 
-    <blockquote cite="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things"> 
+        <blockquote cite="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things"> 
+            <p>
+                »Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so 
+                well that the design is invisible, serving us without drawing attention to itself. Bad design, on the other hand, 
+                screams out its inadequacies, making itself very noticeable.«
+            </p>
+            <footer>
+                <cite>
+                    <a href="https://jnd.org">Don Norman</a>
+                </cite>
+            </footer>
+        </blockquote>
+
         <p>
-            »Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so 
-            well that the design is invisible, serving us without drawing attention to itself. Bad design, on the other hand, 
-            screams out its inadequacies, making itself very noticeable.«
-            - Don Norman
+            User experience captures everything a user experiences while using a given product, from the visuals, the haptics,
+            and the audio to how the product feels. User experience of a product comprises three primary factors: its look,
+            feel, and usability (IXDF - UX DESIGN, N.D.) (→ FIG. 04).
         </p>
-        <footer>
-            <cite>
-                <a href="https://jnd.org">Don Norman</a>
-            </cite>
-        </footer>
-    </blockquote>
 
-    <p>
-        User experience captures everything a user experiences while using a given product, from the visuals, the haptics,
-        and the audio to how the product feels. User experience of a product comprises three primary factors: its look,
-        feel, and usability (IXDF - UX DESIGN, N.D.) (→ FIG. 04).
-    </p>
+        <h3>Look</h3>
+        <p>
+            ...
+        </p>
 
-    <h3>Look</h3>
-    <p>
-        ...
-    </p>
+        <h3>Feel</h3>
+        <p>
+            ...
+        </p>
 
-    <h3>Feel</h3>
-    <p>
-        ...
-    </p>
+        <h3>Usability</h3>
+        <p>
+            ...
+        </p>
 
-    <h3>Usability</h3>
-    <p>
-        ...
-    </p>
-
-    <figure>
-        ![User Experience]../images/user-experience.png
-        <img src="../_data/images/user-experience.png" alt="PRIMARY FACTORS OF USER EXPERIENCE">
-        <figcaption>FIG. 04: PRIMARY FACTORS OF USER EXPERIENCE OWN ILLUSTRATION BASED ON IXDF - USABILITY, 2020</figcaption>
-    </figure>
+        <figure>
+            ![User Experience]../images/user-experience.png
+            <img src="../_data/images/user-experience.png" alt="PRIMARY FACTORS OF USER EXPERIENCE" width="900" >
+            <figcaption>FIG. 04: PRIMARY FACTORS OF USER EXPERIENCE OWN ILLUSTRATION BASED ON IXDF - USABILITY, 2020</figcaption>
+        </figure>
+    </section>    
 
     <p>
         User Experience Design requires a solid understanding of the psychology and behavior of the user. Understanding
@@ -126,6 +197,10 @@
         Anderson proposes that products proceed through six stages of maturity, during which they can grow from a purely 
         functional product, to a product that is meaningful to the user (ANDERSON, 2011, P. 10F.).
     </p>
+
+
+
+
 
 </body>
 </html>
