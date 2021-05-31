@@ -15,6 +15,12 @@ Section{
     padding-bottom: 16px;
 }
 
+.h1Big{
+    font-size: 71pt;
+    color: black;
+
+}
+
 h1{
     font-size: 37pt;
     font-family: sans-serif;
@@ -25,7 +31,8 @@ h2{
     font-size: 23pt;
 }
 
-h3{
+h3
+{
     font-size: 19pt;
 }
 
@@ -54,6 +61,15 @@ blockquote{
     padding-bottom: 16px;
 }
 
+/*Section Front-Page*/
+.front-page-section{ 
+    width: 100vw;     
+    height: 100vh;  
+    background-color: darkgray;
+    
+}
+
+/*first Section every Page*/
 .firstSection{        
     padding-left: 32px;
     padding-right: 256px;
@@ -63,3 +79,10 @@ blockquote{
 
 
 /*Tabelle*/
+
+
+/*Headers, Titels and Subtitels*/
+
+.subTitel{
+    font-size: 23;
+}
