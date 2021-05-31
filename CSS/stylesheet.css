@@ -49,6 +49,11 @@ blockquote{
     padding-left: 128px;
 }
 
+.divQuote{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 .firstSection{        
     padding-left: 32px;
     padding-right: 256px;
