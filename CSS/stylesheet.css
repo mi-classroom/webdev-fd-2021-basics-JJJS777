@@ -10,6 +10,12 @@ Section{
     padding-right: 256px;
     padding-top: 16px;
     padding-bottom: 16px;
+
+    margin-top: 64px;
+}
+
+.lastSection{
+    margin-bottom: 64px;
 }
 
 .h1Big{
