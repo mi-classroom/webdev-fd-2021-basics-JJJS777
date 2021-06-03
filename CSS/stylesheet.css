@@ -35,6 +35,10 @@ h3
     margin-bottom: 8px;
 }
 
+header{
+    width: 40%;
+}
+
 
 blockquote{
     font-size: 15pt;
