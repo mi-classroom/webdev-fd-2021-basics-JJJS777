@@ -6,9 +6,6 @@ html{
 }
 
 Section{        
-    margin-top: 16px;
-    margin-bottom: 16px;        
-    
     padding-left: 32px;
     padding-right: 256px;
     padding-top: 16px;
@@ -29,17 +26,23 @@ h1{
 
 h2{
     font-size: 23pt;
+    margin-bottom: 32px;
 }
 
 h3
 {
     font-size: 19pt;
+    margin-bottom: 8px;
 }
 
 
-
 blockquote{
+    font-size: 15pt;
     font-style: italic;
+    color: rgb(235, 200, 121);
+    width: 58%;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
@@ -49,21 +52,24 @@ blockquote{
 }
 
 .divIntro {
-    width: 50%;
+    width: 40%;
 }
 
-.divBase{
+.divBasePara{
     padding-left: 128px;
+    width: 50%;
+    margin-bottom: 64px;
 }
 
-.divQuote{
+/* .divQuote{
     padding-top: 16px;
     padding-bottom: 16px;
-}
+    width: 66%;
+} */
 
 /*Section Front-Page*/
 .front-page-section{ 
-    width: 100vw;     
+    width: auto;     
     height: 100vh;  
     background-color: darkgray;
     
@@ -75,14 +81,41 @@ blockquote{
     padding-right: 256px;
     padding-top: 16px;
     padding-bottom: 32px;
+    width: auto;     
+    height: 100vh; 
 }
+
+/**/
 
 
 /*Tabelle*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
 
 
 /*Headers, Titels and Subtitels*/
 
 .subTitel{
     font-size: 23;
+}
+
+hr.medium{
+    border: 200px;
+}
+
+
+/*DIV Bild*/
+.divPic{
+    position: static;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+
 }
