@@ -220,32 +220,38 @@
 
         <!--Form-->
         <form>
-            <label for="fname">Vorname:</label><br>
-            <input type="text" id="fname" name="fname" value="Vorname"><br>
-            <label for="lname">Nachname:</label><br>
-            <input type="text" id="lname" name="lname" value="Nachname"><br>
-            <label for="email">Mail:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="textarea">Kommentar:</label><br>
-            <textarea rows="4" cols="50" name="comment" form="usrform"> Kommentare...</textarea> <br>
+            <fieldset>
+                <legend>Persönliche Angaben</legend>
+                <label for="fname">Vorname:</label><br>
+                <input type="text" id="fname" name="fname" value="Vorname"><br>
+                <label for="lname">Nachname:</label><br>
+                <input type="text" id="lname" name="lname" value="Nachname"><br>
+                <label for="email">Mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="textarea">Kommentar:</label><br>
+                <textarea rows="4" cols="50" id="textarea" name="comment" form="usrform"> Kommentare...</textarea> <br>
 
-            <p>Sollen wir Ihren Beitrag anonymisieren?</p>
-            <input type="radio" id="anonym" name="identity" value="anonym">
-            <label for="male">Ja, anonymisiert</label><br>
-            <input type="radio" id="personalized" name="identity" value="anonym">
-            <label for="male">Nein, schon OK</label><br>
+                <label for="myfile">Bild Hochladen</label> <br>
+                <input type="file" id="myfile" name="myfile"> <br>
+            </fieldset>
 
-            <p>Hiermit bestätige ich, dass ich die Datenschutzerklärung gelesen habe</p>
-            <input type="checkbox" id="privacypolicy" name="privacypolicy" value="yes">
-            <label for="vehicle1"> Ja, ich habe die Datenschutzerklärung und bin einverstanden</label><br>
+            <fieldset>
+                <legend>Anonymisieren & Datenschutz</legend>
+                <p>Sollen wir Ihren Beitrag anonymisieren?</p>
+                <input type="radio" id="anonym" name="identity" value="anonym">
+                <label for="anonym">Ja, anonymisiert</label><br>
+                <input type="radio" id="personalized" name="identity" value="anonym">
+                <label for="personalized">Nein, schon OK</label><br>
 
+                <p>Hiermit bestätige ich, dass ich die Datenschutzerklärung gelesen habe</p>
+                <input type="checkbox" id="privacypolicy" name="privacypolicy" value="yes">
+                <label for="vehicle1"> Ja, ich habe die Datenschutzerklärung und bin einverstanden</label><br>
 
-            <label for="myfile">Bild Hochladen</label> <br>
-            <input type="file" id="myfile" name="myfile"> <br>
+            </fieldset>
+
             <input type="submit" value="Senden">
             <input type="reset"><br>
         </form>
-
 
 
     </section>
