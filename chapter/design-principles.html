@@ -9,11 +9,19 @@
 
 
 <body>
+    
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Inhaltsverzeichnis</a></li>
+            <li><a href="#design-principles">Design Principles</a></li>
+            <li><a href="">Design Methoden</a></li>
+        </ul>
+    </nav>
 
     <!-- Erste -->
     <section>
         <header>
-            <h1>Design Principles</h1>
+            <h2 id="design-principles">Design Principles</h2>
             <hr class="hr.medium">
             <p class="intro">
                 The challenge is to develop an application that tries to increase the user’s participation in team
@@ -21,9 +29,6 @@
                 possible to achieve this goal if the application is not properly designed. To achieve this, design
                 principles of several disciplines are applied to achieve a user-centric solution.
             </p>
-            <nav>
-                <a href="http://127.0.0.1:5500/index.html">Inhaltsverzeichnis</a>
-            </nav>
         </header>
 
 
@@ -219,39 +224,36 @@
 
 
         <!--Form-->
-        <form>
-            <fieldset>
-                <legend>Persönliche Angaben</legend>
-                <label for="fname">Vorname:</label><br>
-                <input type="text" id="fname" name="fname" value="Vorname"><br>
-                <label for="lname">Nachname:</label><br>
-                <input type="text" id="lname" name="lname" value="Nachname"><br>
-                <label for="email">Mail:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="textarea">Kommentar:</label><br>
-                <textarea rows="4" cols="50" id="textarea" name="comment" form="usrform"> Kommentare...</textarea> <br>
-
-                <label for="myfile">Bild Hochladen</label> <br>
-                <input type="file" id="myfile" name="myfile"> <br>
-            </fieldset>
-
-            <fieldset>
-                <legend>Anonymisieren & Datenschutz</legend>
-                <p>Sollen wir Ihren Beitrag anonymisieren?</p>
-                <input type="radio" id="anonym" name="identity" value="anonym">
-                <label for="anonym">Ja, anonymisiert</label><br>
-                <input type="radio" id="personalized" name="identity" value="anonym">
-                <label for="personalized">Nein, schon OK</label><br>
-
-                <p>Hiermit bestätige ich, dass ich die Datenschutzerklärung gelesen habe</p>
-                <input type="checkbox" id="privacypolicy" name="privacypolicy" value="yes">
-                <label for="vehicle1"> Ja, ich habe die Datenschutzerklärung und bin einverstanden</label><br>
-
-            </fieldset>
-
-            <input type="submit" value="Senden">
-            <input type="reset"><br>
-        </form>
+        <footer>
+            <form>
+                <fieldset>
+                    <legend>Persönliche Angaben</legend>
+                    <label for="fname">Vorname:</label><br>
+                    <input type="text" id="fname" name="fname" value="Vorname"><br>
+                    <label for="lname">Nachname:</label><br>
+                    <input type="text" id="lname" name="lname" value="Nachname"><br>
+                    <label for="email">Mail:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="textarea">Kommentar:</label><br>
+                    <textarea rows="4" cols="50" id="textarea" name="comment" form="usrform"> Kommentare...</textarea> <br>
+                    <label for="myfile">Bild Hochladen</label> <br>
+                    <input type="file" id="myfile" name="myfile"> <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Anonymisieren & Datenschutz</legend>
+                    <p>Sollen wir Ihren Beitrag anonymisieren?</p>
+                    <input type="radio" id="anonym" name="identity" value="anonym">
+                    <label for="anonym">Ja, anonymisiert</label><br>
+                    <input type="radio" id="personalized" name="identity" value="anonym">
+                    <label for="personalized">Nein, schon OK</label><br>
+                    <p>Hiermit bestätige ich, dass ich die Datenschutzerklärung gelesen habe</p>
+                    <input type="checkbox" id="privacypolicy" name="privacypolicy" value="yes">
+                    <label for="vehicle1"> Ja, ich habe die Datenschutzerklärung und bin einverstanden</label><br>
+                </fieldset>
+                <input type="submit" value="Senden">
+                <input type="reset"><br>
+            </form>
+        </footer>
 
 
     </section>
