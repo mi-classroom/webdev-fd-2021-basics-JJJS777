@@ -1,0 +1,61 @@
+/*
+    61.035em
+    3.815em
+
+    48.828em
+    3.052em
+
+    39.063em
+    2.441em
+
+    31.25em
+    1.953em
+
+    25em
+    1.563em
+
+    20em
+    1.25em
+
+    16em
+    1em
+
+    12.8em
+    0.8em
+
+    10.24em
+    0.64em
+
+    8.192em
+    0.512em
+
+    6.554em
+    0.41em
+*/
+
+
+:root{
+    --bfs: 1rem;
+    --xxs: calc(var(--bfs) * 0.512);
+    --xs: calc(var(--bfs) * 0.64);
+    --s: calc(var(--bfs) * 0.8);
+    --m: var(--bfs);
+    --l: calc(var(--bfs) * 1.25);
+    --xl: calc(var(--bfs) * 1.563);
+    --xxl: calc(var(--bfs) * 1.953);
+
+    --ligther:#fff;
+    --light: #ccc;
+    --dark: #666;
+    --darker: #222;
+
+    --text-color: var(--darker);
+
+    --font-normal: Arial;
+
+    --lh-normal: 130%;
+    --lh-tight: 100%;
+    --lh-tighter: 80%;  
+
+}
+

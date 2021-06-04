@@ -1,0 +1,13 @@
+
+
+.main-nav{
+    padding: var(--m);
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: var(--light)
+}

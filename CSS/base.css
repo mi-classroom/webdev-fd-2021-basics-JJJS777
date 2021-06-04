@@ -1,0 +1,75 @@
+/**/
+
+html{
+    font-size: 25pt;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+}
+
+h1, h2, h3, p, section, dd {
+    margin-top: var(--l);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: var(--lh-tighter);
+    color: #666;
+    margin-top: var(--xxl);
+}
+
+nav, main, footer, header {
+    max-width: 100%;
+}
+
+nav{
+    padding: var(--l);
+}
+
+main{
+    padding: var(--l);
+}
+
+article{
+    margin-top: calc(var(--bfs) * 9.313);
+}
+
+h1{
+    font-size: calc(var(--bfs) * 3.052);
+    color: bisque;
+}
+
+h2{
+    font-size: calc(var(--bfs) * 2.441);
+}
+
+h3{
+    font-size: var(--xxl);
+}
+
+h4{
+    font-size: var(--l);
+}
+
+p{
+    line-height: var(--lh-normal);
+    margin-top: var(--m);
+}
+
+
+nav li {
+    display: inline-block;
+    border-bottom: solid 4px;
+    
+    
+}
+
+img{
+    width: 100%;
+}
+
+
+
+/*Custom Properties*/
