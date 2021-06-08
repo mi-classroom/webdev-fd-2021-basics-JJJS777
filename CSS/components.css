@@ -1,5 +1,11 @@
 
+/*INTRO*/
+.articel-intro{
+    margin-top: var(--xxl);
+    margin-bottom: var(--xl);
+}
 
+/*NAVIGATION*/
 .main-nav{
     padding: var(--m);
 }
@@ -10,4 +16,13 @@
 
 .main-nav li a{
     color: var(--light)
+}
+
+
+/*IMAGES*/
+/*ist das root-element, auf dass sich die rem beziehen das Elternelement? 
+- Was wäre hier der Bezugspunkt der rem die Schriftgröße der figcap? - selbst wenn ich größe xxl angeben ändert sich kaum etwas*/
+.div-img{
+    margin-top: 128px;
+    margin-bottom: 128px;
 }

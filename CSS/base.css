@@ -9,15 +9,10 @@ body{
     color: var(--text-color);
 }
 
-h1, h2, h3, p, section, dd {
-    margin-top: var(--l);
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     line-height: var(--lh-tighter);
     color: #666;
-    margin-top: var(--xxl);
 }
 
 nav, main, footer, header {
@@ -38,11 +33,12 @@ article{
 
 h1{
     font-size: calc(var(--bfs) * 3.052);
-    color: bisque;
+    margin-bottom: var(--l);
+    color:orange;
 }
 
 h2{
-    font-size: calc(var(--bfs) * 2.441);
+    font-size: var(--xxl);
 }
 
 h3{
@@ -56,6 +52,13 @@ h4{
 p{
     line-height: var(--lh-normal);
     margin-top: var(--m);
+    margin-bottom: var(--m);
+}
+
+figcaption{
+    font-size: var(--xs);
+    width: 50%;
+    margin: auto;
 }
 
 
@@ -70,6 +73,27 @@ img{
     width: 100%;
 }
 
+/*TABELS*/
+table{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+th, td {
+    border: 2px solid black;
+    font-size: var(--s);
+    padding: var(--xxs);
+    vertical-align: middle;
+  }
+
+thead{
+    font-weight: bold;
+    background-color: grey;
+}
+
+tbody{
+    text-align: left;
+}
 
 
-/*Custom Properties*/
+
