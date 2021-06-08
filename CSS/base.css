@@ -12,7 +12,6 @@ body{
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     line-height: var(--lh-tighter);
-    color: #666;
 }
 
 nav, main, footer, header {
@@ -34,24 +33,29 @@ article{
 h1{
     font-size: calc(var(--bfs) * 3.052);
     margin-bottom: var(--l);
-    color:orange;
 }
 
 h2{
     font-size: var(--xxl);
+    color: var(--yellow);
+    margin-bottom: var(--l);
 }
 
 h3{
-    font-size: var(--xxl);
+    font-size: var(--l);
+    margin-top: var(--l);
+    margin-bottom: var(--m);
 }
 
 h4{
-    font-size: var(--l);
+    font-size: var(--m);
+    color: var(--yellow);
+    margin-top: var(--l);
+    margin-bottom: var(--xs);
 }
 
 p{
     line-height: var(--lh-normal);
-    margin-top: var(--m);
     margin-bottom: var(--m);
 }
 
@@ -75,24 +79,20 @@ img{
 
 /*TABELS*/
 table{
-    margin-top: 128px;
-    margin-bottom: 128px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: left;
 }
 
 th, td {
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     font-size: var(--s);
-    padding: var(--xxs);
+    padding: var(--xs);
     vertical-align: middle;
   }
 
 thead{
     font-weight: bold;
-    background-color: grey;
-}
-
-tbody{
-    text-align: left;
 }
 
 

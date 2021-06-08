@@ -49,6 +49,7 @@
     --light: #ccc;
     --dark: #666;
     --darker: #222;
+    --yellow: rgb(232, 187, 100);
 
     --text-color: var(--darker);
 
