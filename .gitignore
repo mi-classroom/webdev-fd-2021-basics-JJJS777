@@ -57,4 +57,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#npm node modules
+node_modules
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows
