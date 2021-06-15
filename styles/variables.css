@@ -33,9 +33,9 @@
     0.41em
 */
 
-/*Custom Properties*/
+/* Custom Properties */
 
-:root{
+:root {
     --bfs: 1rem;
     --xxs: calc(var(--bfs) * 0.512);
     --xs: calc(var(--bfs) * 0.64);
@@ -44,20 +44,14 @@
     --l: calc(var(--bfs) * 1.25);
     --xl: calc(var(--bfs) * 1.563);
     --xxl: calc(var(--bfs) * 1.953);
-
-    --ligther:#fff;
+    --ligther: #fff;
     --light: #ccc;
     --dark: #666;
     --darker: #222;
     --yellow: rgb(232, 187, 100);
-
     --text-color: var(--darker);
-
-    --font-normal: Arial;
-
+    --font-normal: arial;
     --lh-normal: 130%;
     --lh-tight: 100%;
-    --lh-tighter: 80%;  
-
+    --lh-tighter: 80%;
 }
-

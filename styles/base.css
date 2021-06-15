@@ -1,14 +1,19 @@
 
 html {
-  font-size: 25pt;
+    font-size: 25pt;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
     line-height: var(--lh-tighter);
 }
@@ -17,96 +22,94 @@ nav main footer header {
     max-width: 100%;
 }
 
-nav{
+nav {
     padding: var(--l);
 }
 
 nav li {
     display: inline-block;
-    border-bottom: solid 4px;  
+    border-bottom: solid 4px;
 }
 
-main{
+main {
     padding: var(--l);
 }
 
-article{
+article {
     margin-top: calc(var(--bfs) * 9.313);
 }
 
-h1{
+h1 {
+    margin-bottom: var(--l);
     font-size: calc(var(--bfs) * 3.052);
-    margin-bottom: var(--l);
 }
 
-h2{
-    font-size: var(--xxl);
+h2 {
+    margin-bottom: var(--l);
     color: var(--yellow);
-    margin-bottom: var(--l);
+    font-size: var(--xxl);
 }
 
-h3{
-    font-size: var(--l);
+h3 {
     margin-top: var(--l);
     margin-bottom: var(--m);
+    font-size: var(--l);
 }
 
-h4{
-    font-size: var(--m);
-    color: var(--yellow);
+h4 {
     margin-top: var(--l);
     margin-bottom: var(--xs);
+    color: var(--yellow);
+    font-size: var(--m);
 }
 
-p{
-    line-height: var(--lh-normal);
+p {
     margin-bottom: var(--m);
+    line-height: var(--lh-normal);
 }
 
-figcaption{
-    font-size: var(--xs);
+figcaption {
     width: 50%;
     margin: auto;
+    font-size: var(--xs);
 }
 
-img{
+img {
     width: 100%;
 }
 
-blockquote{
-    font-style: italic;
-    color: var(--yellow);
+blockquote {
     margin-top: 64px;
     margin-bottom: 64px;
-}
-
-cite{
+    color: var(--yellow);
     font-style: italic;
 }
 
-/*TABELS*/
-table{
+cite {
+    font-style: italic;
+}
+
+/* TABELS */
+table {
     margin-top: 64px;
     margin-bottom: 64px;
     text-align: left;
 }
 
-th, td {
+th,
+td {
+    padding: var(--xs);
     border-bottom: 2px solid black;
     font-size: var(--s);
-    padding: var(--xs);
     vertical-align: middle;
-  }
+}
 
-thead{
+thead {
     font-weight: bold;
 }
 
-hr{
-    border-top: 4px solid;
+hr {
     width: 100%;
+    border-top: 4px solid;
     margin-bottom: var(--m);
 }
-
-
-

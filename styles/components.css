@@ -1,12 +1,12 @@
 
-/*INTRO*/
-.articel-intro{
+/* INTRO */
+.articel-intro {
     margin-top: var(--xxl);
     margin-bottom: var(--xl);
 }
 
-/*NAVIGATION*/
-.main-nav{
+/* NAVIGATION */
+.main-nav {
     padding: var(--m);
 }
 
@@ -14,32 +14,32 @@
     display: inline-block;
 }
 
-.main-nav li a{
-    color: var(--light)
+.main-nav li a {
+    color: var(--light);
 }
 
 
-/*IMAGES*/
-/*ist das root-element, auf dass sich die rem beziehen das Elternelement? 
-- Was wäre hier der Bezugspunkt der rem die Schriftgröße der figcap? - selbst wenn ich größe xxl angeben ändert sich kaum etwas*/
-.div-img{
+/* IMAGES */
+
+/* ist das root-element, auf dass sich die rem beziehen das Elternelement?
+- Was wäre hier der Bezugspunkt der rem die Schriftgröße der figcap? - selbst wenn ich größe xxl angeben ändert sich kaum etwas */
+.div-img {
     margin-top: 128px;
     margin-bottom: 128px;
 }
 
-
-blockquote p:before,
-blockquote p:after{
-    content: "»";
+blockquote p::before,
+blockquote p::after {
     display: inline-block;
+    content: "»";
     font-size: 31pt;
 }
 
-blockquote p:after{
+blockquote p::after {
     content: "«";
 }
 
-blockquote footer:before{
-    content: "-";
+blockquote footer::before {
     display: inline-block;
+    content: "-";
 }
