@@ -1,0 +1,133 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  display: block;
+  max-width: 100%; }
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em; }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--ff-normal);
+  font-weight: var(--fw-normal);
+  hyphens: auto;
+  line-height: var(--lh-normal); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-headline);
+  font-weight: bold;
+  hyphens: none; }
+
+h1 {
+  padding-top: var(--xxxl);
+  padding-bottom: var(--xxxl);
+  font-size: var(--xxl);
+  line-height: var(--lh-tight); }
+
+h2 {
+  padding-top: var(--xxl);
+  padding-bottom: var(--xxl);
+  font-size: var(--xxl);
+  font-weight: bold; }
+
+h3 {
+  padding-top: var(--xl);
+  padding-bottom: var(--xl);
+  font-size: var(--xl);
+  font-weight: normal; }
+
+img {
+  width: 100%; }
+
+:root {
+  --bfs: 0.5rem;
+  --xxs: calc(var(--bfs) * 1);
+  --xs: calc(var(--bfs) * 1.25);
+  --s: calc(var(--bfs) * 1.6);
+  --m: calc(var(--bfs) * 2);
+  --l: calc(var(--bfs) * 2.5);
+  --xl: calc(var(--bfs) * 3.15);
+  --xxl: calc(var(--bfs) * 4);
+  --xxxl: calc(var(--bfs) * 5);
+  --xxxxl: calc(var(--bfs) * 6.3);
+  --light: #ccc;
+  --lighter: #eee;
+  --lightest: #fff;
+  --dark: #888;
+  --darker: #111;
+  --darkest: #000;
+  --darken: rgba(0, 0, 0, 0.2);
+  --color-text: var(--darker);
+  --color-headline: var(--dark);
+  --color-accent: rgb(254, 196, 87);
+  --ff-normal: 'IBMPlexSans', sans-serif;
+  --ff-icons: 'MaterialIcons', serif;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --lh-normal: 140%;
+  --lh-tight: 110%;
+  --lh-loose: 150%;
+  --tr-fast: 0.2s;
+  --tr-slow: 0.6s;
+  --shadow-l: 0 0 10px rgba(0, 0, 0, 0.5);
+  --border-width-s: 1px;
+  --border-width-m: 3px; }
+
+/*# sourceMappingURL=main.css.map */
